@@ -1,0 +1,23 @@
+Comando para empezar el proyecto 
+(git init y git remote se ejecutan una unica vez por proyecto)
+
+git init 
+git add .   o   git add nombre_archivo
+git commit -m "aqui se realizo esto"
+git remote add origin https://github.com/Blo2SonNT/prueba-img.git
+git push -u origin nombre_rama
+
+------------------------------------------------------------
+Comandos para actualizar repositorios
+
+git add .
+git commit -m "comentario"
+git push -u origin nombre_rama
+
+------------------------------------------------------------
+Comando para crear y moverse de rama automaticamente
+git checkout -b nombre_rama_nueva
+
+------------------------------------------------------------
+Comando para moverse entre ramas
+git checkout master
